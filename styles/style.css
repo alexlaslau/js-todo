@@ -1,0 +1,50 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(200deg, #006769, #40A578);
+    padding: 10px;
+}
+.todoapp{
+    width:100%;
+    max-width:540px;
+    background:#fff;
+    margin:100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius:20px;
+}
+
+.todoapp h2{
+    color:#006769;
+    display:flex;
+    align-items:center;
+    margin-bottom:20px;
+}   
+
+.todoapp h2 img{
+    width:30px;
+    margin-left:25px;
+}
+
+.row{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #d6dad8;
+    border-radius:30px;
+    padding-left:20px;
+    margin-bottom:25px;
+}
+
+input{
+    flex:1;
+    border:none;
+    outline:none;
+    background: transparent;
+    padding:10px;
+}
